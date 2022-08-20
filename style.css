@@ -1,0 +1,85 @@
+/* write your code here */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1784de;
+}
+
+h1 {
+  font-family: "Contrail One", cursive;
+  text-align: center;
+  font-size: 60px;
+  color: azure;
+}
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  flex-direction: column;
+}
+
+.content {
+  flex-direction: column;
+  font-family: "Contrail One", cursive;
+  font-size: 15px;
+  color: azure;
+  left: 0;
+  right: 0;
+  width: 50vw;
+  margin: 10px auto;
+  padding: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: beige;
+}
+
+.hello {
+  flex-direction: column;
+  align-items: center;
+  left: 0;
+  right: 0;
+  width: 50vw;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-family: "Contrail One", cursive;
+  font-size: 15px;
+  color: azure;
+  text-align: center;
+}
+
+#gifwelcome {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.socmedbutton {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.socmedbutton:hover {
+  opacity: 0.7;
+}
+
+.end {
+  flex-direction: column;
+  align-items: center;
+  left: 0;
+  right: 0;
+  width: 50vw;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: "Contrail One", cursive;
+  font-size: 15px;
+  color: azure;
+  text-align: center;
+}
